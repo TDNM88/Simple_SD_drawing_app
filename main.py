@@ -1,9 +1,7 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 import torch
-from transformers import pipeline
 
-class DrawingApp:
     def __init__(self, root):
         root.geometry("800x600")
         root.title("Image Generator")
