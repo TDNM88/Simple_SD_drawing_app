@@ -1,0 +1,26 @@
+# Core libraries for deep learning and model manipulation
+torch==2.1.0
+torchvision
+torchaudio
+
+# Hugging Face libraries for models and utilities
+transformers==4.38.2
+diffusers==0.25.0
+accelerate==0.27.2
+safetensors
+
+# For creating interactive web apps
+gradio==4.29.0
+
+# Web framework, might be used for additional routing and requests handling in Gradio
+flask
+
+# Image processing library
+Pillow
+
+# Additional common libraries that might be useful
+tkinter
+numpy
+pandas
+scikit-learn
+matplotlib
