@@ -2,6 +2,11 @@ import tkinter as tk
 from PIL import Image, ImageTk
 import torch
 
+class DrawingApp:
+    def __init__(self, root):
+        root.geometry("800x600")
+        root.title("Image Generator")
+
     def __init__(self, root):
         root.geometry("800x600")
         root.title("Image Generator")
